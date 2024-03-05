@@ -1,0 +1,92 @@
+.emailpage {
+    background: #F6F8F7;
+}
+
+.emailForm {
+    width: 450px;
+    margin: 0 auto;
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.emailForm .title {
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: WorkSansBold;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 0em;
+
+}
+
+.emailForm .description {
+    margin-bottom: 20px;
+    text-align: center;
+
+    font-family: WorkSansRegular;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.emailForm > div{
+    width: 550px;
+    margin: 10px 0 ;
+}
+.emailForm .formRow {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.emailForm .formRow input,
+.emailForm .messageRow textarea {
+    width: calc(100% - 10px);
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.emailForm .messageRow textarea {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.emailForm .hint {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.emailForm .submitButton {
+    align-items: center;
+    justify-content: center; 
+    top: 518px;
+    left: 585px;
+    padding: 16px, 20px, 16px, 20px;
+    border-radius: 2px;
+    gap: 10px;
+    background: #2947A9;
+    color: #fff;
+    border: none;
+    font-family: WorkSansRegular;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 1rem 5rem;
+
+}
+
+.emailForm .submitButton:hover {
+    background-color: #1E336C;
+}
+
+.required {
+    color: red;
+}

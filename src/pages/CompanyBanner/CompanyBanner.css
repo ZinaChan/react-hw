@@ -1,0 +1,121 @@
+.companyBanner {
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.companyBanner .photoContainer {
+    position: relative;
+    height: 650px;
+}
+
+.companyBanner .photoContainer::before {
+    content: "";
+    position: absolute;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(90deg,  #fffffffa 63%,  #ffffff00 72.38%);
+
+}
+ 
+.companyBanner .photoContainer .imgBanner {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.photoContainer .textOverlay {
+    position: absolute;
+    width: 556px;
+    height: 168px;
+    top: 239px;
+    left: 112px;
+}
+
+.textOverlay .heading {
+    font-family: WorkSansSemiBold;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 84px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #292E3D;
+}
+
+.featureProjects {
+    position: absolute;
+    width: 416px;
+    height: 190px;
+    bottom: 0px;
+    right: 5px;
+    border-radius: 2px 2px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #1e1e1e;
+
+}
+
+.featureProjects .projectDetails {
+    padding: 20px;
+    height: 100%;
+    background: #3559C7;
+}
+
+.featureProjects .projectTitle {
+    font-family: WorkSansRegular;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.featureProjects .projectDescription {
+    font-family: WorkSansRegular;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+.featureProjects .projectButtons {
+    display: flex;
+    margin: 0;
+    width: 416px;
+    height: 70px;
+}
+
+.backButton,
+.forwardButton {
+    width: 100%;
+    margin-left: 1px;
+    margin-right: 1px;
+    color: white;
+    background-color: #292E3D;
+    border: none;
+    border-radius: 2px;
+    font-family: WorkSansRegular;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.arrow {
+    width: 26px;
+    height: 15px;
+    margin-left: 8px;
+    margin-right: 8px;
+}

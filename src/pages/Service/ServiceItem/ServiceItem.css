@@ -1,0 +1,46 @@
+.servicesContainer .serviceItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 275px;
+    height: 190px;
+    padding: 20px;
+    border-radius: 4px;
+    gap: 20px;
+    box-shadow: 0px 0px 37px 14px #1118270D;
+    background: #FFFFFF;
+    text-align: center;
+    margin: 1rem;
+}
+
+.servicesContainer .active {
+    background-color: #2947A9;
+    color: #FFFFFF !important;
+}
+
+.serviceItem .icon {
+    width: 42px;
+    height: 42px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: none;   
+}
+
+.serviceItem .rectangle {
+    width: 60px;
+    height: 2px;
+}
+
+.serviceItem .title {
+    font-family: WorkSansBold;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left; 
+    color: #3D445C;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}

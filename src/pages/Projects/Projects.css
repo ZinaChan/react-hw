@@ -1,0 +1,104 @@
+.projects {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5rem;
+}
+
+.projects>div:first-child {
+    position: relative;
+    width: 40%;
+    top: 10px;
+}
+
+.projects div:first-child .heading {
+    font-family: WorkSansBold;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 1rem 0;
+}
+
+.projects div:first-child .projTypesContainer {
+    list-style: none;
+    margin: 2rem 0;
+}
+
+.projects div:first-child .projTypesContainer li {
+    display: flex;
+    font-family: WorkSansRegular;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.projects div:first-child .projTypesContainer li img {
+    margin: 4px;
+}
+
+.projects div:first-child .projTypesContainer li p {
+    margin: 8px 20px;
+}
+
+.projects div:first-child .projTypesContainer li p:first-child {
+    margin: 8px 30px;
+    color: #C2C7D6;
+}
+
+/*proj containers*/
+.projects .projsContainer {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.projsContainer .navigatebar {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+
+.projsContainer .navigatebar button {
+    font-family: WorkSansBold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    padding: 1rem;
+    margin: 1rem 4rem  ;
+    width: 300px;
+
+}
+
+.navigatebar .slider {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; 
+}
+
+.navigatebar .slider li {
+    width: 15px;
+    height: 15px;
+    background: #F6F8F7;
+    border-radius: 150%;
+    margin: 5px;
+}
+.navigatebar .slider .active
+{
+    background: #2947A9;
+} 

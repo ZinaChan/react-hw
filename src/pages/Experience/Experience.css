@@ -1,0 +1,173 @@
+.experience {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.experience .upperElementsContainer {
+    position: relative;
+    padding: 3rem;
+    width: 50%;
+    margin: 2rem;
+    height: 500px;
+    border-radius: 2px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upperElementsContainer .upperItem {
+    position: absolute;
+    margin: 1rem;
+    border: 1px solid #FFFFFF;
+    background: #FFFFFF;
+    width: 300px;
+    height: 140px;
+    padding: 30px;
+    border-radius: 4px;
+    border: 1px;
+    gap: 2px;
+    border: none;
+    box-shadow: 0px 4px 6px 6px #1118270D, 0px 12px 16px 6px #1118271A;}
+
+.upperItem .title {
+    position: relative;
+    font-family: WorkSansBold;
+    font-size: 66px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 55px;
+
+    color: #292E3D;
+}
+
+.upperItem .icon {
+    position: absolute;
+    width: 97px;
+    height: 97px; 
+
+}
+
+.upperItem div {
+    display: flex;
+    flex-direction: row;
+    height: 10px;
+}
+
+.upperItem div .rectangle {
+    width: 7px;
+    height: 28px;
+    margin-right: 5px;
+}
+
+.upperItem div .title {
+    font-family: WorkSansRegular;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #667299;
+    width: auto;
+}
+/*Absolute*/
+.upperElementsContainer .upperItem:nth-child(1) {
+    top: 0px;
+    left: 512px;
+    z-index: 1;
+}
+.upperItem:nth-child(1) .icon
+{
+    bottom: 90px;
+    right: -26px;
+}
+
+.upperElementsContainer .upperItem:nth-child(2) {
+    top: 110px;
+    left: 252px; 
+    z-index: 0;
+
+}
+.upperItem:nth-child(2) .icon
+{
+    bottom: 115px;
+    left: -36px;
+}
+
+.upperElementsContainer .upperItem:nth-child(3) {
+    top: 230px; 
+    left: 498px;  
+    z-index: 1;
+
+}
+.upperItem:nth-child(3) .icon
+{
+    bottom: 90px;
+    right: -26px;
+    
+}
+
+.upperElementsContainer .upperItem:nth-child(4) {
+    bottom: 10px;
+    left: 252px; 
+    z-index: 0;
+
+}
+.upperItem:nth-child(4) .icon
+{
+    top: 85px;
+    right: -46px;
+}
+
+/*Info*/
+.experience .experienceInfo {
+    position: relative;
+    width: 30%;
+    margin: 1rem;
+
+    border-radius: 2px;
+    padding: 3.4rem 3rem;
+}
+
+.experienceInfo .title {
+    font-family: WorkSansBold;
+    font-size: 66px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2947A9;
+    margin-bottom: 3rem;
+}
+
+.experienceInfo .description {
+    width: 350px;
+    height: 130px;
+    top: 129px;
+    left: 40px;
+    font-family: WorkSansRegular;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #525B7A;
+    margin: 0;
+
+}
+
+.experienceInfo .contactusButton {
+    padding: 16px 20px;
+    border-radius: 6px;
+    background: #2947A9;
+    border: 2px solid #2947A9;
+    font-family: WorkSansrEGULAR;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: center;
+    color: #fff;
+}

@@ -1,0 +1,62 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    margin-left: 1.8rem;
+    margin-right: 1.8rem;
+
+}
+
+.navbar .imgLogo {
+    width: 38px;
+    height: 47.5px;
+    top: 16px;
+    left: 112px;
+}
+
+.navbar .logo .title {
+    font-size: 30px; 
+    line-height: 35px;
+    letter-spacing: 0em; 
+    color: #2947A9;
+    font-family: WorkSansBoldItalic;
+    margin-bottom: 8px; 
+    margin-left: 20px; 
+    margin-right: 0;   
+    width: 57px;
+
+}
+
+.logo .title:last-child
+{
+    font-family: WorkSansBold;
+    margin-left: 0;
+    margin-right: 10px; 
+}
+.navbar .navItems {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    margin-right: 4rem;
+} 
+ 
+.navbar .navItems .navItem {
+    color: #14171F;
+    font-weight: 400;
+    font-family: WorkSansRegular;
+    text-align: left;  
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0em;
+}
+
+.navbar .navItems .active
+{
+    color: #F9995D;
+}

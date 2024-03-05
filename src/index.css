@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+@font-face {
+  font-family: WorkSansBold;
+  src: url(assets/fonts/WorkSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: WorkSansRegular;
+  src: url(assets/fonts/WorkSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: WorkSansBoldItalic;
+  src: url(assets/fonts/WorkSans-BoldItalic.ttf);
+}
+@font-face {
+  font-family: WorkSansSemiBold;
+  src: url(assets/fonts/WorkSans-SemiBold.ttf);
+}
+
